@@ -15,6 +15,7 @@ $color-navbar-border: #e5e5e5;
 $color-breadcrumbs: #707070;
 $color-footer: #b0b0b0;
 $font-condensed: 'RobotoCondensed';
+$color-hea-bak: #e7f6fd;
 
 @mixin border-radius {
 }
@@ -127,6 +128,11 @@ sidenav li {
 	z-index: 888;
 	display: none;
 
+}
+
+
+.hea {
+	background-color: $color-hea-bak;
 }
 
 footer {
